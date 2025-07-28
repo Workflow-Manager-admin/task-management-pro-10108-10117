@@ -1,0 +1,113 @@
+.onboarding-root {
+  background: #f8f9fe;
+  min-height: 100vh;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #222;
+}
+.onboarding-statusbar {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: #888;
+  padding: 0 16px;
+}
+.onboarding-icons span {
+  margin-left: 6px;
+}
+.onboarding-time {
+  font-size: 15px;
+  font-weight: 500;
+}
+.onboarding-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.018);
+  height: 80px;
+  padding: 14px 24px 6px 26px;
+}
+.onboarding-icon-star {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background: #fffbe5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.onboarding-header-label {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.onboarding-header-title {
+  font-size: 27px;
+  color: #222;
+  font-weight: 700;
+  margin-top: 1px;
+}
+.onboarding-heroimg {
+  width: 100vw;
+  height: 260px;
+  background: #ececec url('https://placehold.co/900x220') center/cover no-repeat;
+  margin: 0;
+}
+.onboarding-main {
+  padding: 24px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onboarding-pagination {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 26px;
+  margin-top: 8px;
+}
+.onboarding-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #d4d3da;
+  display: inline-block;
+  transition: background 0.22s;
+}
+.onboarding-dot-active {
+  background: #321f68;
+}
+.onboarding-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 14px;
+  margin-top: 0;
+  color: #321f68;
+  line-height: 1.22;
+}
+.onboarding-desc {
+  font-size: 15px;
+  color: #7f7e90;
+  text-align: center;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+.onboarding-btn-primary {
+  border: none;
+  background: #e87a41;
+  color: #fff;
+  font-size: 17px;
+  padding: 14px 0;
+  width: 90%;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(44, 25, 93, 0.06);
+  transition: background 0.2s;
+}
+.onboarding-btn-primary:hover {
+  background: #ff9949;
+}
